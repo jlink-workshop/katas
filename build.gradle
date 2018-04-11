@@ -1,21 +1,11 @@
-buildscript {
-	repositories {
-		mavenCentral()
-	}
-	dependencies {
-		classpath 'org.junit.platform:junit-platform-gradle-plugin:1.1.0'
-	}
-}
-
 repositories {
 	mavenCentral()
 }
 
 ext.junitPlatformVersion = '1.1.0'
-ext.junitJupiterVersion  = '5.1.0'
+ext.junitJupiterVersion = '5.1.0'
 
 apply plugin: 'java'
-apply plugin: 'org.junit.platform.gradle.plugin'
 
 compileTestJava {
 	sourceCompatibility = 1.8
@@ -23,10 +13,12 @@ compileTestJava {
 	options.compilerArgs += '-parameters'
 }
 
-junitPlatform {
-	filters {
-		includeClassNamePattern '.*Tests?'
-	}
+test {
+	useJUnitPlatform()
+
+	// testLogging {
+	//	events "PASSED", "FAILED", "SKIPPED"
+	// }
 }
 
 dependencies {
