@@ -1,0 +1,25 @@
+# Jqwik
+.jqwik-*
+
+# Gradle
+.gradle
+build/
+target/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+### IntelliJ IDEA ###
+.idea/
+.ideaDataSources/
+/.shelf/
+dataSources/
+out/
+*.iws
+*.iml
+*.ipr
+
+# Misc
+*.log
+*.graphml
+.DS_Store

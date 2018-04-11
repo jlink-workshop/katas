@@ -1,0 +1,72 @@
+<code_scheme name="agile-developer" version="173">
+    <option name="LINE_SEPARATOR" value="&#xA;"/>
+    <option name="FORMATTER_TAGS_ENABLED" value="true"/>
+    <GroovyCodeStyleSettings>
+        <option name="CONSTRUCTORS_ORDER_WEIGHT" value="4"/>
+        <option name="STATIC_METHODS_ORDER_WEIGHT" value="3"/>
+        <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="2"/>
+        <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="1"/>
+        <option name="IMPORT_LAYOUT_TABLE">
+            <value>
+                <package name="groovy" withSubpackages="true" static="false"/>
+                <emptyLine/>
+                <package name="javax" withSubpackages="true" static="false"/>
+                <package name="java" withSubpackages="true" static="false"/>
+                <emptyLine/>
+                <package name="" withSubpackages="true" static="false"/>
+                <emptyLine/>
+                <package name="de.conzimahc" withSubpackages="true" static="false"/>
+                <emptyLine/>
+                <package name="" withSubpackages="true" static="true"/>
+                <emptyLine/>
+                <package name="de.conzimahc" withSubpackages="true" static="true"/>
+            </value>
+        </option>
+    </GroovyCodeStyleSettings>
+    <HTMLCodeStyleSettings>
+        <option name="HTML_ATTRIBUTE_WRAP" value="4"/>
+    </HTMLCodeStyleSettings>
+    <JavaCodeStyleSettings>
+        <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="2"/>
+        <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="1"/>
+        <option name="IMPORT_LAYOUT_TABLE">
+            <value>
+                <package name="javax" withSubpackages="true" static="false"/>
+                <package name="java" withSubpackages="true" static="false"/>
+                <emptyLine/>
+                <package name="" withSubpackages="true" static="false"/>
+                <emptyLine/>
+                <package name="de.conzimahc" withSubpackages="true" static="false"/>
+                <emptyLine/>
+                <package name="" withSubpackages="true" static="true"/>
+                <emptyLine/>
+                <package name="de.conzimahc" withSubpackages="true" static="true"/>
+            </value>
+        </option>
+    </JavaCodeStyleSettings>
+    <TypeScriptCodeStyleSettings>
+        <option name="USE_DOUBLE_QUOTES" value="false"/>
+    </TypeScriptCodeStyleSettings>
+    <codeStyleSettings language="Groovy">
+        <option name="BLANK_LINES_AFTER_IMPORTS" value="2"/>
+        <indentOptions>
+            <option name="CONTINUATION_INDENT_SIZE" value="4"/>
+            <option name="USE_TAB_CHARACTER" value="true"/>
+            <option name="SMART_TABS" value="true"/>
+        </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="JAVA">
+        <option name="RIGHT_MARGIN" value="120"/>
+        <option name="KEEP_LINE_BREAKS" value="false"/>
+        <option name="METHOD_PARAMETERS_LPAREN_ON_NEXT_LINE" value="true"/>
+        <option name="METHOD_PARAMETERS_RPAREN_ON_NEXT_LINE" value="true"/>
+        <indentOptions>
+            <option name="USE_TAB_CHARACTER" value="true"/>
+        </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="TypeScript">
+        <indentOptions>
+            <option name="USE_TAB_CHARACTER" value="true"/>
+        </indentOptions>
+    </codeStyleSettings>
+</code_scheme>

@@ -1,2 +1,7 @@
 # katas
-Workshop Katas Setup
+
+## Workshop Katas Setup
+
+- Preferences -> Code Style -> Import Scheme -> IntelliJ...
+
+  File: `agile-developer.xml`
