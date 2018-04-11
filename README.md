@@ -1,0 +1,2 @@
+# katas
+Workshop Katas Setup
