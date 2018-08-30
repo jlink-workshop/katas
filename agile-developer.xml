@@ -36,14 +36,13 @@
                 <emptyLine/>
                 <package name="" withSubpackages="true" static="false"/>
                 <emptyLine/>
-                <package name="de.conzimahc" withSubpackages="true" static="false"/>
-                <emptyLine/>
                 <package name="" withSubpackages="true" static="true"/>
-                <emptyLine/>
-                <package name="de.conzimahc" withSubpackages="true" static="true"/>
             </value>
         </option>
     </JavaCodeStyleSettings>
+    <MarkdownNavigatorCodeStyleSettings>
+        <option name="RIGHT_MARGIN" value="72"/>
+    </MarkdownNavigatorCodeStyleSettings>
     <TypeScriptCodeStyleSettings>
         <option name="USE_DOUBLE_QUOTES" value="false"/>
     </TypeScriptCodeStyleSettings>
