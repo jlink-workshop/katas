@@ -5,7 +5,7 @@ import org.junit.jupiter.api.*;
 class MyKataTest {
 
 	@Test
-	void testName() throws Exception {
+	void testName() {
 		Assertions.fail("no tests yet");
 	}
 }
