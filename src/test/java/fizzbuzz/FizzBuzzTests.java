@@ -1,11 +1,12 @@
-package template;
+package fizzbuzz;
 
 import org.junit.jupiter.api.*;
 
-class MyKataTest {
+class FizzBuzzTests {
 
 	@Test
 	void testName() {
 		Assertions.fail("no tests yet");
 	}
+
 }
