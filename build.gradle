@@ -1,36 +1,33 @@
 repositories {
-	mavenCentral()
+    mavenCentral()
 }
 
-ext.junitPlatformVersion = '1.2.0'
-ext.junitJupiterVersion = '5.2.0'
+ext.junitPlatformVersion = '1.4.1'
+ext.junitJupiterVersion = '5.4.1'
 
 apply plugin: 'java'
 
 compileTestJava {
-	sourceCompatibility = 1.8
-	targetCompatibility = 1.8
-	options.compilerArgs += '-parameters'
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+    options.compilerArgs += '-parameters'
 }
 
 test {
-	useJUnitPlatform()
+    useJUnitPlatform()
 
-	//	testLogging {
-	//		events "PASSED", "FAILED", "SKIPPED"
-	//	}
+    //	testLogging {
+    //		events "PASSED", "FAILED", "SKIPPED"
+    //	}
 }
 
 dependencies {
-	// JUnit Jupiter API and TestEngine implementation
-	testCompile("org.junit.jupiter:junit-jupiter-api:${junitJupiterVersion}")
-	testRuntime("org.junit.jupiter:junit-jupiter-engine:${junitJupiterVersion}")
-
-	// Only needed to run tests in an (IntelliJ) IDE(A) that bundles an older version
-	// testRuntime("org.junit.platform:junit-platform-launcher:${junitPlatformVersion}")
+    // JUnit Jupiter API and TestEngine implementation
+    testCompile("org.junit.jupiter:junit-jupiter-api:${junitJupiterVersion}")
+    testRuntime("org.junit.jupiter:junit-jupiter-engine:${junitJupiterVersion}")
 }
 
 wrapper {
-	description = 'Generates gradlew[.bat] scripts'
-	gradleVersion = '4.10.2'
+    description = 'Generates gradlew[.bat] scripts'
+    gradleVersion = '5.2.1'
 }
