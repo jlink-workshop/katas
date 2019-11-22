@@ -17,9 +17,9 @@ compileTestJava {
 test {
     useJUnitPlatform()
 
-    testLogging {
-        events "PASSED", "FAILED", "SKIPPED"
-    }
+    //    testLogging {
+    //        events "PASSED", "FAILED", "SKIPPED"
+    //    }
 }
 
 dependencies {
