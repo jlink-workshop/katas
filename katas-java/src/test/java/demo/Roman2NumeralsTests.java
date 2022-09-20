@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 class Roman2NumeralsTests {
 
 	@Test
-	void one() {
+	void noTestsYet() {
 		Assertions.fail("no tests yet");
 	}
 }

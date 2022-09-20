@@ -5,7 +5,7 @@ import org.junit.jupiter.api.*;
 class LeapYearTests {
 
 	@Test
-	void testName() {
+	void noTestsYet() {
 		Assertions.fail("no tests yet");
 	}
 

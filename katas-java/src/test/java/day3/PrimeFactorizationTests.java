@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 class PrimeFactorizationTests {
 
 	@Test
-	void testName() {
+	void noTestsYet() {
 		Assertions.fail("no tests yet");
 	}
 
