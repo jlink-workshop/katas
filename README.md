@@ -20,6 +20,27 @@ cd katas-java
 
 ## Python
 
+### Project layout
+
+- `app` contains code to be tested
+- `tests` contains tests definitions
+
+### Setup
+
+```
+python -m venv venv
+source venv/bin/activate
+pip install --editable .
+```
+
+### Running Tests
+
+Run all tests in file `tests/test_leap_year.py`:
+
+```
+pytest tests/test_leap_year.py
+```
+
 ## Javascript
 
 A minimal setup for JS with [jasmine](http://jasmine.github.io/)
