@@ -1,8 +1,8 @@
-package fizzbuzz;
+package day1;
 
 import org.junit.jupiter.api.*;
 
-class FizzBuzzTests {
+class LeapYearTests {
 
 	@Test
 	void testName() {

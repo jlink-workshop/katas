@@ -1,0 +1,47 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    jupiterVersion = '5.8.2'
+    assertJVersion = '3.23.1'
+    mockitoVersion = '4.6.1'
+}
+
+dependencies {
+    testImplementation("org.junit.jupiter:junit-jupiter:$jupiterVersion")
+    testImplementation("org.assertj:assertj-core:$assertJVersion")
+    testImplementation("org.mockito:mockito-core:$mockitoVersion")
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+compileTestJava {
+    options.compilerArgs += '-parameters'
+}
+
+test {
+    useJUnitPlatform()
+    reports {
+        junitXml.required = true
+    }
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
+}
+
+wrapper {
+    gradleVersion = '7.5.1'
+}
+

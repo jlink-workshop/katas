@@ -1,7 +1,22 @@
-# katas
+# Workshop Katas Setup
 
-## Workshop Katas Setup
+## Java
 
-- Preferences -> Code Style -> Import Scheme -> IntelliJ...
+A minimal setup with Java, JUnit5, AssertJ and Mockito to get you started.
+Based on Gradle and Java 17.
 
-  File: `agile-developer.xml`
+### Setup
+
+```
+git clone https://github.com/jlink-workshop/katas
+cd katas-java
+```
+
+Run tests with
+```
+./gradlew test
+```
+
+## Python
+
+## Javascript

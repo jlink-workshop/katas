@@ -4,10 +4,21 @@
 # Gradle
 .gradle
 build/
-target/
 
 # Ignore Gradle GUI config
 gradle-app.setting
+
+# Maven
+target/
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+*.uml
+.shelf
+.idea/
+out/
 
 # Eclipse
 .classpath
@@ -15,17 +26,48 @@ gradle-app.setting
 .project
 bin/
 
-### IntelliJ IDEA ###
-.idea/
-.ideaDataSources/
-/.shelf/
-dataSources/
-out/
-*.iws
-*.iml
-*.ipr
-
 # Misc
 *.log
-*.graphml
+
+# System
 .DS_Store
+Thumbs.db
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.cache
+.pytest_cache/
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Cython debug symbols
+cython_debug/
+
+# pyenv
+.python-version
