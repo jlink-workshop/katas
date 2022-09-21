@@ -3,7 +3,7 @@ package demo;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-class Roman2NumeralsTests {
+class RomanNumeralsTests {
 
 	@Test
 	void noTestsYet() {
