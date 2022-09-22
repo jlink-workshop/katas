@@ -1,12 +1,13 @@
 package demo;
 
-import org.assertj.core.api.Assertions;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
+
+import static org.assertj.core.api.Assertions.*;
 
 class RomanNumeralsTests {
 
 	@Test
 	void noTestsYet() {
-		Assertions.fail("no tests yet");
+		fail("no tests yet");
 	}
 }
