@@ -8,10 +8,10 @@ Based on Gradle and Java 17.
 ### Project layout
 
 - `build.gradle`: Gradle configuration file
-- `src/test/java` contains all tests
-  - `day1`: Starting test class for day 1
-  - `day2`: Starting test class for day 2
-  - `day3`: Starting test class for day 3
+- `src/test/java/` contains all tests
+  - `day1`: Test class stub for day 1
+  - `day2`: Test class stub for day 2
+  - `day3`: Test class stub for day 3
 
 ### Setup
 
@@ -28,10 +28,15 @@ cd katas-java
 
 ## Python
 
+A minimal setup for testing Python code with [pytest](https://docs.pytest.org/en/7.1.x/)
+
 ### Project layout
 
-- `app` contains code to be tested
-- `tests` contains tests definitions
+- `app/`: Code to be tested
+- `tests/`: Test definition stubs
+  - `test_leap_year.py`
+  - `test_text_munger.py`
+  - `test_prime_factorization.py`
 
 ### Setup
 
@@ -53,7 +58,15 @@ pytest tests/test_leap_year.py
 
 ## Javascript
 
-A minimal setup for JS with [jasmine](http://jasmine.github.io/)
+A minimal setup for testing JavaScript code with [jasmine](http://jasmine.github.io/)
+
+### Project layout
+
+- `src/`: Code to test
+- `spec/`: Test spec file stubs
+  - `LeapYearsSpec.js`
+  - `TextMungerSpec.js`
+  - `PrimeFactorizationSpec.js`
 
 ### Setup
 
@@ -62,10 +75,13 @@ git clone https://github.com/jlink-workshop/katas
 cd katas-js
 ```
 
-Open folder in editor or IDE:
-- source code can be found in folder src
-- test specs can be found in folder spec
-
 ### Running Tests
 
-`<any modern browser>` SpecRunner.html
+- Open `SpecRunner.html` with any modern browser
+
+  e.g. on Mac:
+  ```bash
+  open SpecRunner.html -a /Applications/Safari.app
+  ```
+
+- Reload page to rerun tests
