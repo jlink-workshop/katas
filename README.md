@@ -23,7 +23,6 @@ cd katas-java
 ### Running Tests
 
 ```bash
-cd katas-java
 ./gradlew test
 ```
 
