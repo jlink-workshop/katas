@@ -42,6 +42,7 @@ A minimal setup for testing Python code with [pytest](https://docs.pytest.org/en
 
 ```bash
 git clone https://github.com/jlink-workshop/katas
+cd katas
 cd katas-python
 python -m venv venv
 source venv/bin/activate
